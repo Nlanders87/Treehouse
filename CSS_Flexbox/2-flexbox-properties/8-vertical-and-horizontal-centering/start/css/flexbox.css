@@ -1,0 +1,16 @@
+
+/* =================================
+  Flexbox
+==================================== */
+
+.container {
+	display: flex;
+	min-height: 50vh;
+
+
+}
+
+
+.item {
+	margin: auto;
+}
