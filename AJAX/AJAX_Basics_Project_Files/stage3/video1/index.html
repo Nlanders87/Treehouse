@@ -5,9 +5,17 @@
   <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/main.css">
   <title>AJAX with JavaScript</title>
+  <script src="jquery-3.2.0.min.js">  </script>
   <script>
 
+    function sendAJAX() {
+      $.get('sidebar.html', function(response) {
+        $('#ajax').html(response);
+      });
+    }
+
   </script>
+
 </head>
 <body>
   <div class="grid-container centered">
