@@ -6,24 +6,23 @@ namespace Treehouse
   {
       static void Main()
       {   
-          double runningTotal = 0;
-          bool keepGoing = true;
+          var runningTotal = 0.0;
         
-          while (keepGoing) 
+          while (true) 
           {
               // Prompt user for minutes exercised 
               Console.Write("Enter how many minutes you exercised or type 'quit' to exit: "); 
             
-              string entry = Console.ReadLine();
+              var entry = Console.ReadLine();
             
               if(entry.ToLower() == "quit") 
               {
                  break;
-              } else 
+              } 
               {
               try 
                 {
-                  double minutes = double.Parse(entry);
+                  var minutes = double.Parse(entry);
                   
                 if(minutes <= 0)
                 {
@@ -46,7 +45,7 @@ namespace Treehouse
                 {
                   Console.WriteLine("Okay, now you're just showing off");
                 }
-              runningTotal = runningTotal + minutes;
+              runningTotal += minutes;
                 }
                 catch(FormatException)
                 {
