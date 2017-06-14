@@ -51,6 +51,7 @@
     <None Include=".vs\VSWorkspaceState.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Course Files\stage_1\TreehouseDefense\Exceptions.cs" />
     <Compile Include="Course Files\stage_1\TreehouseDefense\MapLocation.cs" />
     <Compile Include="Course Files\stage_1\TreehouseDefense\Point.cs" />
     <Compile Include="Course Files\stage_1\TreehouseDefense\Game.cs" />
