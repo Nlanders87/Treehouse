@@ -1,5 +1,0 @@
-C:\Users\nland\Desktop\Repos\Treehouse\C#_Objects\csharp-objects\obj\x86\Debug\CSharpObjects.csprojResolveAssemblyReference.cache
-C:\Users\nland\Desktop\Repos\Treehouse\C#_Objects\csharp-objects\bin\Debug\WindowsApplication.exe
-C:\Users\nland\Desktop\Repos\Treehouse\C#_Objects\csharp-objects\bin\Debug\WindowsApplication.pdb
-C:\Users\nland\Desktop\Repos\Treehouse\C#_Objects\csharp-objects\obj\x86\Debug\WindowsApplication.exe
-C:\Users\nland\Desktop\Repos\Treehouse\C#_Objects\csharp-objects\obj\x86\Debug\WindowsApplication.pdb
